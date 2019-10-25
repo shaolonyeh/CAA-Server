@@ -1,71 +1,255 @@
-[00:38:31] [main/WARN]: Ambiguity between arguments [teleport, destination] and [teleport, targets] with inputs: [Player, 0123, @e, dd12be42-52a9-4a91-a8a1-11c01849e498]
-[00:38:31] [main/WARN]: Ambiguity between arguments [teleport, location] and [teleport, destination] with inputs: [0.1 -0.5 .9, 0 0 0]
-[00:38:31] [main/WARN]: Ambiguity between arguments [teleport, location] and [teleport, targets] with inputs: [0.1 -0.5 .9, 0 0 0]
-[00:38:31] [main/WARN]: Ambiguity between arguments [teleport, targets] and [teleport, destination] with inputs: [Player, 0123, dd12be42-52a9-4a91-a8a1-11c01849e498]
-[00:38:31] [main/WARN]: Ambiguity between arguments [teleport, targets, location] and [teleport, targets, destination] with inputs: [0.1 -0.5 .9, 0 0 0]
-[00:38:32] [Server thread/INFO]: Starting minecraft server version 1.14.4
-[00:38:32] [Server thread/INFO]: Loading properties
-[00:38:32] [Server thread/INFO]: Default game type: SURVIVAL
-[00:38:32] [Server thread/INFO]: Generating keypair
-[00:38:32] [Server thread/INFO]: Starting Minecraft server on *:25565
-[00:38:32] [Server thread/INFO]: Using epoll channel type
-[00:38:32] [Server thread/WARN]: Failed to load operators list: 
-com.google.gson.JsonParseException: com.google.gson.stream.MalformedJsonException: Use JsonReader.setLenient(true) to accept malformed JSON at line 1 column 2 path $[0]
-	at zs.a(SourceFile:507) ~[minecraft_server.jar:?]
-	at zs.a(SourceFile:523) ~[minecraft_server.jar:?]
-	at xz.g(SourceFile:146) ~[minecraft_server.jar:?]
-	at uj.A(SourceFile:106) [minecraft_server.jar:?]
-	at uj.<init>(SourceFile:29) [minecraft_server.jar:?]
-	at uk.d(SourceFile:185) [minecraft_server.jar:?]
-	at net.minecraft.server.MinecraftServer.run(SourceFile:615) [minecraft_server.jar:?]
-	at java.lang.Thread.run(Thread.java:748) [?:1.8.0_232]
-Caused by: com.google.gson.stream.MalformedJsonException: Use JsonReader.setLenient(true) to accept malformed JSON at line 1 column 2 path $[0]
-	at com.google.gson.stream.JsonReader.syntaxError(JsonReader.java:1559) ~[minecraft_server.jar:?]
-	at com.google.gson.stream.JsonReader.checkLenient(JsonReader.java:1401) ~[minecraft_server.jar:?]
-	at com.google.gson.stream.JsonReader.doPeek(JsonReader.java:593) ~[minecraft_server.jar:?]
-	at com.google.gson.stream.JsonReader.hasNext(JsonReader.java:414) ~[minecraft_server.jar:?]
-	at com.google.gson.internal.bind.CollectionTypeAdapterFactory$Adapter.read(CollectionTypeAdapterFactory.java:81) ~[minecraft_server.jar:?]
-	at com.google.gson.internal.bind.CollectionTypeAdapterFactory$Adapter.read(CollectionTypeAdapterFactory.java:61) ~[minecraft_server.jar:?]
-	at zs.a(SourceFile:505) ~[minecraft_server.jar:?]
-	... 7 more
-[00:38:32] [Server thread/INFO]: Preparing level "world"
-[00:38:32] [Server thread/INFO]: Reloading ResourceManager: Default
-[00:38:34] [Server thread/INFO]: Loaded 6 recipes
-[00:38:35] [Server thread/INFO]: Loaded 811 advancements
-[00:39:06] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
-[00:39:07] [Server thread/INFO]: Preparing spawn area: 0%
-[00:39:07] [Server thread/INFO]: Preparing spawn area: 0%
-[00:39:07] [Server thread/INFO]: Preparing spawn area: 0%
-[00:39:07] [Server thread/INFO]: Preparing spawn area: 0%
-[00:39:08] [Server-Worker-1/INFO]: Preparing spawn area: 21%
-[00:39:11] [Server-Worker-1/INFO]: Preparing spawn area: 72%
-[00:39:11] [Server-Worker-1/INFO]: Preparing spawn area: 72%
-[00:39:11] [Server-Worker-1/INFO]: Preparing spawn area: 72%
-[00:39:11] [Server-Worker-1/INFO]: Preparing spawn area: 72%
-[00:39:11] [Server-Worker-1/INFO]: Preparing spawn area: 72%
-[00:39:11] [Server-Worker-1/INFO]: Preparing spawn area: 72%
-[00:39:11] [Server-Worker-1/INFO]: Preparing spawn area: 72%
-[00:39:12] [Server-Worker-1/INFO]: Preparing spawn area: 87%
-[00:39:12] [Server-Worker-1/INFO]: Preparing spawn area: 87%
-[00:39:13] [Server-Worker-1/INFO]: Preparing spawn area: 87%
-[00:39:13] [Server-Worker-1/INFO]: Preparing spawn area: 87%
-[00:39:14] [Server thread/INFO]: Preparing spawn area: 87%
-[00:39:14] [Server-Worker-1/INFO]: Preparing spawn area: 90%
-[00:39:15] [Server thread/INFO]: Preparing spawn area: 92%
-[00:39:15] [Server-Worker-1/INFO]: Preparing spawn area: 95%
-[00:39:16] [Server-Worker-1/INFO]: Preparing spawn area: 99%
-[00:39:16] [Server thread/INFO]: Time elapsed: 10156 ms
-[00:39:16] [Server thread/INFO]: Done (43.614s)! For help, type "help"
-[00:40:36] [Server thread/INFO]: Stopping the server
-[00:40:36] [Server thread/INFO]: Stopping server
-[00:40:36] [Server thread/INFO]: Saving players
-[00:40:36] [Server thread/INFO]: Saving worlds
-[00:40:36] [Server thread/INFO]: Saving chunks for level 'world'/minecraft:the_nether
-[00:40:36] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
-[00:40:36] [Server thread/INFO]: Saving chunks for level 'world'/minecraft:overworld
-[00:40:37] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
-[00:40:37] [Server thread/INFO]: Saving chunks for level 'world'/minecraft:the_end
-[00:40:37] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
-[00:40:37] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
-[00:40:37] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
-[00:40:37] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[01:31:43] [Server thread/INFO]: Starting minecraft server version 1.14.4
+[01:31:43] [Server thread/INFO]: Loading properties
+[01:31:43] [Server thread/INFO]: This server is running CraftBukkit version git-Spigot-56f8471-7554e08 (MC: 1.14.4) (Implementing API version 1.14.4-R0.1-SNAPSHOT)
+[01:31:43] [Server thread/INFO]: Server Ping Player Sample Count: 12
+[01:31:43] [Server thread/INFO]: Using 4 threads for Netty based IO
+[01:31:43] [Server thread/INFO]: Debug logging is disabled
+[01:31:43] [Server thread/INFO]: Default game type: SURVIVAL
+[01:31:43] [Server thread/INFO]: Generating keypair
+[01:31:44] [Server thread/INFO]: Starting Minecraft server on *:25565
+[01:31:44] [Server thread/INFO]: Using epoll channel type
+[01:31:44] [Server thread/INFO]: Preparing level "world"
+[01:31:44] [Server thread/INFO]: Reloading ResourceManager: Default, bukkit
+[01:31:46] [Server thread/INFO]: Loaded 6 recipes
+[01:31:47] [Server thread/INFO]: -------- World Settings For [world] --------
+[01:31:47] [Server thread/INFO]: Cactus Growth Modifier: 100%
+[01:31:47] [Server thread/INFO]: Cane Growth Modifier: 100%
+[01:31:47] [Server thread/INFO]: Melon Growth Modifier: 100%
+[01:31:47] [Server thread/INFO]: Mushroom Growth Modifier: 100%
+[01:31:47] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
+[01:31:47] [Server thread/INFO]: Sapling Growth Modifier: 100%
+[01:31:47] [Server thread/INFO]: Beetroot Growth Modifier: 100%
+[01:31:47] [Server thread/INFO]: Carrot Growth Modifier: 100%
+[01:31:47] [Server thread/INFO]: Potato Growth Modifier: 100%
+[01:31:47] [Server thread/INFO]: Wheat Growth Modifier: 100%
+[01:31:47] [Server thread/INFO]: NetherWart Growth Modifier: 100%
+[01:31:47] [Server thread/INFO]: Vine Growth Modifier: 100%
+[01:31:47] [Server thread/INFO]: Cocoa Growth Modifier: 100%
+[01:31:47] [Server thread/INFO]: Bamboo Growth Modifier: 100%
+[01:31:47] [Server thread/INFO]: SweetBerry Growth Modifier: 100%
+[01:31:47] [Server thread/INFO]: Kelp Growth Modifier: 100%
+[01:31:47] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Ra 48 / Mi 16 / Tiv true
+[01:31:47] [Server thread/INFO]: Experience Merge Radius: 3.0
+[01:31:47] [Server thread/INFO]: Mob Spawn Range: 6
+[01:31:47] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
+[01:31:47] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 1 Hopper Amount: 1
+[01:31:47] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Desert: 14357617 Igloo: 14357618 Jungle: 14357619 Swamp: 14357620 Monument: 10387313Ocean: 14357621 Shipwreck: 165745295 Slime: 987234911
+[01:31:47] [Server thread/INFO]: Max TNT Explosions: 100
+[01:31:47] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
+[01:31:47] [Server thread/INFO]: View Distance: 10
+[01:31:47] [Server thread/INFO]: Arrow Despawn Rate: 1200
+[01:31:47] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
+[01:31:47] [Server thread/INFO]: Item Merge Radius: 2.5
+[01:31:47] [Server thread/INFO]: Item Despawn Rate: 6000
+[01:31:47] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
+[01:31:47] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
+[01:31:48] [Server thread/INFO]: -------- World Settings For [world_nether] --------
+[01:31:48] [Server thread/INFO]: Cactus Growth Modifier: 100%
+[01:31:48] [Server thread/INFO]: Cane Growth Modifier: 100%
+[01:31:48] [Server thread/INFO]: Melon Growth Modifier: 100%
+[01:31:48] [Server thread/INFO]: Mushroom Growth Modifier: 100%
+[01:31:48] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
+[01:31:48] [Server thread/INFO]: Sapling Growth Modifier: 100%
+[01:31:48] [Server thread/INFO]: Beetroot Growth Modifier: 100%
+[01:31:48] [Server thread/INFO]: Carrot Growth Modifier: 100%
+[01:31:48] [Server thread/INFO]: Potato Growth Modifier: 100%
+[01:31:48] [Server thread/INFO]: Wheat Growth Modifier: 100%
+[01:31:48] [Server thread/INFO]: NetherWart Growth Modifier: 100%
+[01:31:48] [Server thread/INFO]: Vine Growth Modifier: 100%
+[01:31:48] [Server thread/INFO]: Cocoa Growth Modifier: 100%
+[01:31:48] [Server thread/INFO]: Bamboo Growth Modifier: 100%
+[01:31:48] [Server thread/INFO]: SweetBerry Growth Modifier: 100%
+[01:31:48] [Server thread/INFO]: Kelp Growth Modifier: 100%
+[01:31:48] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Ra 48 / Mi 16 / Tiv true
+[01:31:48] [Server thread/INFO]: Experience Merge Radius: 3.0
+[01:31:48] [Server thread/INFO]: Mob Spawn Range: 6
+[01:31:48] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
+[01:31:48] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 1 Hopper Amount: 1
+[01:31:48] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Desert: 14357617 Igloo: 14357618 Jungle: 14357619 Swamp: 14357620 Monument: 10387313Ocean: 14357621 Shipwreck: 165745295 Slime: 987234911
+[01:31:48] [Server thread/INFO]: Max TNT Explosions: 100
+[01:31:48] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
+[01:31:48] [Server thread/INFO]: View Distance: 10
+[01:31:48] [Server thread/INFO]: Arrow Despawn Rate: 1200
+[01:31:48] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
+[01:31:48] [Server thread/INFO]: Item Merge Radius: 2.5
+[01:31:48] [Server thread/INFO]: Item Despawn Rate: 6000
+[01:31:48] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
+[01:31:48] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
+[01:31:49] [Server thread/INFO]: -------- World Settings For [world_the_end] --------
+[01:31:49] [Server thread/INFO]: Cactus Growth Modifier: 100%
+[01:31:49] [Server thread/INFO]: Cane Growth Modifier: 100%
+[01:31:49] [Server thread/INFO]: Melon Growth Modifier: 100%
+[01:31:49] [Server thread/INFO]: Mushroom Growth Modifier: 100%
+[01:31:49] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
+[01:31:49] [Server thread/INFO]: Sapling Growth Modifier: 100%
+[01:31:49] [Server thread/INFO]: Beetroot Growth Modifier: 100%
+[01:31:49] [Server thread/INFO]: Carrot Growth Modifier: 100%
+[01:31:49] [Server thread/INFO]: Potato Growth Modifier: 100%
+[01:31:49] [Server thread/INFO]: Wheat Growth Modifier: 100%
+[01:31:49] [Server thread/INFO]: NetherWart Growth Modifier: 100%
+[01:31:49] [Server thread/INFO]: Vine Growth Modifier: 100%
+[01:31:49] [Server thread/INFO]: Cocoa Growth Modifier: 100%
+[01:31:49] [Server thread/INFO]: Bamboo Growth Modifier: 100%
+[01:31:49] [Server thread/INFO]: SweetBerry Growth Modifier: 100%
+[01:31:49] [Server thread/INFO]: Kelp Growth Modifier: 100%
+[01:31:49] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Ra 48 / Mi 16 / Tiv true
+[01:31:49] [Server thread/INFO]: Experience Merge Radius: 3.0
+[01:31:49] [Server thread/INFO]: Mob Spawn Range: 6
+[01:31:49] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
+[01:31:49] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 1 Hopper Amount: 1
+[01:31:49] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Desert: 14357617 Igloo: 14357618 Jungle: 14357619 Swamp: 14357620 Monument: 10387313Ocean: 14357621 Shipwreck: 165745295 Slime: 987234911
+[01:31:49] [Server thread/INFO]: Max TNT Explosions: 100
+[01:31:49] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
+[01:31:49] [Server thread/INFO]: View Distance: 10
+[01:31:49] [Server thread/INFO]: Arrow Despawn Rate: 1200
+[01:31:49] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
+[01:31:49] [Server thread/INFO]: Item Merge Radius: 2.5
+[01:31:49] [Server thread/INFO]: Item Despawn Rate: 6000
+[01:31:49] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
+[01:31:49] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
+[01:31:50] [Server thread/INFO]: Preparing start region for dimension 'world'/minecraft:overworld
+[01:31:52] [Server thread/INFO]: Preparing spawn area: 0%
+[01:31:52] [Server thread/INFO]: Preparing spawn area: 0%
+[01:31:52] [Server thread/INFO]: Preparing spawn area: 0%
+[01:31:52] [Server thread/INFO]: Preparing spawn area: 0%
+[01:32:17] [Server-Worker-1/INFO]: Preparing spawn area: 0%
+[01:32:18] [Server-Worker-1/INFO]: Preparing spawn area: 0%
+[01:32:18] [Server-Worker-1/INFO]: Preparing spawn area: 0%
+[01:32:18] [Server-Worker-1/INFO]: Preparing spawn area: 0%
+[01:32:18] [Server-Worker-1/INFO]: Preparing spawn area: 0%
+[01:32:18] [Server-Worker-1/INFO]: Preparing spawn area: 0%
+[01:32:18] [Server-Worker-1/INFO]: Preparing spawn area: 0%
+[01:32:18] [Server-Worker-1/INFO]: Preparing spawn area: 0%
+[01:32:18] [Server-Worker-1/INFO]: Preparing spawn area: 0%
+[01:32:18] [Server-Worker-1/INFO]: Preparing spawn area: 0%
+[01:32:18] [Server-Worker-1/INFO]: Preparing spawn area: 0%
+[01:32:18] [Server-Worker-1/INFO]: Preparing spawn area: 0%
+[01:32:18] [Server-Worker-1/INFO]: Preparing spawn area: 0%
+[01:32:18] [Server-Worker-1/INFO]: Preparing spawn area: 0%
+[01:32:18] [Server-Worker-1/INFO]: Preparing spawn area: 0%
+[01:32:18] [Server-Worker-1/INFO]: Preparing spawn area: 0%
+[01:32:18] [Server-Worker-1/INFO]: Preparing spawn area: 0%
+[01:32:18] [Server-Worker-1/INFO]: Preparing spawn area: 0%
+[01:32:18] [Server-Worker-1/INFO]: Preparing spawn area: 0%
+[01:32:18] [Server-Worker-1/INFO]: Preparing spawn area: 0%
+[01:32:18] [Server-Worker-1/INFO]: Preparing spawn area: 0%
+[01:32:18] [Server-Worker-1/INFO]: Preparing spawn area: 0%
+[01:32:18] [Server-Worker-1/INFO]: Preparing spawn area: 0%
+[01:32:18] [Server-Worker-1/INFO]: Preparing spawn area: 0%
+[01:32:18] [Server-Worker-1/INFO]: Preparing spawn area: 0%
+[01:32:18] [Server-Worker-1/INFO]: Preparing spawn area: 0%
+[01:32:18] [Server-Worker-1/INFO]: Preparing spawn area: 0%
+[01:32:18] [Server-Worker-1/INFO]: Preparing spawn area: 0%
+[01:32:18] [Server-Worker-1/INFO]: Preparing spawn area: 0%
+[01:32:18] [Server-Worker-1/INFO]: Preparing spawn area: 0%
+[01:32:18] [Server-Worker-1/INFO]: Preparing spawn area: 0%
+[01:32:18] [Server-Worker-1/INFO]: Preparing spawn area: 0%
+[01:32:18] [Server-Worker-1/INFO]: Preparing spawn area: 0%
+[01:32:18] [Server-Worker-1/INFO]: Preparing spawn area: 0%
+[01:32:18] [Server-Worker-1/INFO]: Preparing spawn area: 0%
+[01:32:18] [Server-Worker-1/INFO]: Preparing spawn area: 0%
+[01:32:18] [Server-Worker-1/INFO]: Preparing spawn area: 0%
+[01:32:18] [Server-Worker-1/INFO]: Preparing spawn area: 0%
+[01:32:18] [Server-Worker-1/INFO]: Preparing spawn area: 0%
+[01:32:18] [Server-Worker-1/INFO]: Preparing spawn area: 0%
+[01:32:18] [Server-Worker-1/INFO]: Preparing spawn area: 0%
+[01:32:18] [Server-Worker-1/INFO]: Preparing spawn area: 0%
+[01:32:18] [Server-Worker-1/INFO]: Preparing spawn area: 0%
+[01:32:18] [Server-Worker-1/INFO]: Preparing spawn area: 0%
+[01:32:18] [Server-Worker-1/INFO]: Preparing spawn area: 0%
+[01:32:18] [Server-Worker-1/INFO]: Preparing spawn area: 0%
+[01:32:18] [Server-Worker-1/INFO]: Preparing spawn area: 0%
+[01:32:18] [Server-Worker-1/INFO]: Preparing spawn area: 0%
+[01:32:18] [Server-Worker-1/INFO]: Preparing spawn area: 0%
+[01:32:18] [Server-Worker-1/INFO]: Preparing spawn area: 0%
+[01:32:18] [Server-Worker-1/INFO]: Preparing spawn area: 0%
+[01:32:18] [Server-Worker-1/INFO]: Preparing spawn area: 0%
+[01:32:21] [Server-Worker-1/INFO]: Preparing spawn area: 0%
+[01:32:21] [Server-Worker-1/INFO]: Preparing spawn area: 0%
+[01:32:21] [Server-Worker-1/INFO]: Preparing spawn area: 0%
+[01:32:21] [Server-Worker-1/INFO]: Preparing spawn area: 0%
+[01:32:21] [Server-Worker-1/INFO]: Preparing spawn area: 0%
+[01:32:21] [Server-Worker-1/INFO]: Preparing spawn area: 0%
+[01:32:21] [Server-Worker-1/INFO]: Preparing spawn area: 0%
+[01:32:22] [Server-Worker-1/INFO]: Preparing spawn area: 11%
+[01:32:22] [Server-Worker-1/INFO]: Preparing spawn area: 11%
+[01:32:22] [Server-Worker-1/INFO]: Preparing spawn area: 11%
+[01:32:23] [Server-Worker-1/INFO]: Preparing spawn area: 87%
+[01:32:23] [Server-Worker-1/INFO]: Preparing spawn area: 87%
+[01:32:24] [Server-Worker-1/INFO]: Preparing spawn area: 87%
+[01:32:24] [Server-Worker-1/INFO]: Preparing spawn area: 87%
+[01:32:25] [Server-Worker-1/INFO]: Preparing spawn area: 88%
+[01:32:25] [Server-Worker-1/INFO]: Preparing spawn area: 89%
+[01:32:26] [Server-Worker-1/INFO]: Preparing spawn area: 91%
+[01:32:26] [Server-Worker-1/INFO]: Preparing spawn area: 91%
+[01:32:27] [Server-Worker-1/INFO]: Preparing spawn area: 94%
+[01:32:27] [Server thread/INFO]: Preparing spawn area: 98%
+[01:32:28] [Server thread/INFO]: Time elapsed: 37866 ms
+[01:32:28] [Server thread/INFO]: Preparing start region for dimension 'world_nether'/minecraft:the_nether
+[01:32:29] [Server thread/INFO]: Preparing spawn area: 0%
+[01:32:29] [Server thread/INFO]: Preparing spawn area: 0%
+[01:32:29] [Server thread/INFO]: Preparing spawn area: 50%
+[01:32:29] [Server-Worker-1/INFO]: Preparing spawn area: 83%
+[01:32:30] [Server-Worker-1/INFO]: Preparing spawn area: 83%
+[01:32:30] [Server-Worker-1/INFO]: Preparing spawn area: 84%
+[01:32:31] [Server-Worker-1/INFO]: Preparing spawn area: 89%
+[01:32:31] [Server thread/INFO]: Preparing spawn area: 98%
+[01:32:31] [Server thread/INFO]: Time elapsed: 3578 ms
+[01:32:31] [Server thread/INFO]: Preparing start region for dimension 'world_the_end'/minecraft:the_end
+[01:32:32] [Server thread/INFO]: Preparing spawn area: 0%
+[01:32:32] [Server-Worker-1/INFO]: Preparing spawn area: 83%
+[01:32:32] [Server-Worker-1/INFO]: Preparing spawn area: 88%
+[01:32:33] [Server thread/INFO]: Time elapsed: 1220 ms
+[01:32:33] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
+[01:32:33] [Server thread/INFO]: Done (48.648s)! For help, type "help"
+[01:32:39] [User Authenticator #1/INFO]: UUID of player Nezumichii is ff24b2e8-9084-47db-a284-ab2b2fba3bb8
+[01:32:39] [Server thread/INFO]: Nezumichii[/135.180.43.130:63960] logged in with entity id 237 at ([world]218.5, 64.0, -212.5)
+[01:32:49] [Server thread/INFO]: Nezumichii issued server command: /gamemode 1
+[01:33:01] [Server thread/INFO]: Made Nezumichii a server operator
+[01:33:06] [Server thread/INFO]: Nezumichii issued server command: /gamemode 1
+[01:33:08] [Server thread/INFO]: Nezumichii issued server command: /gamemode creative
+[01:33:08] [Server thread/INFO]: [Nezumichii: Set own game mode to Creative Mode]
+[01:33:16] [Server thread/INFO]: Nezumichii issued server command: /toggledownfall
+[01:33:18] [Server thread/INFO]: Nezumichii issued server command: /help
+[01:33:22] [Server thread/INFO]: Nezumichii issued server command: /help 2
+[01:33:28] [Server thread/INFO]: Nezumichii issued server command: /help 3
+[01:33:31] [Server thread/INFO]: Nezumichii issued server command: /help 4
+[01:33:34] [Server thread/INFO]: Nezumichii issued server command: /help 5
+[01:33:38] [Server thread/INFO]: Nezumichii issued server command: /help 6
+[01:33:40] [Server thread/INFO]: Nezumichii issued server command: /help 7
+[01:33:42] [Server thread/INFO]: Nezumichii issued server command: /help 8
+[01:33:45] [Server thread/INFO]: Nezumichii issued server command: /help 9
+[01:33:50] [Server thread/INFO]: Nezumichii issued server command: /weather clear
+[01:33:50] [Server thread/INFO]: [Nezumichii: Set the weather to clear]
+[01:33:59] [Server thread/INFO]: Nezumichii issued server command: /time set
+[01:34:01] [Server thread/INFO]: Nezumichii issued server command: /time set day
+[01:34:01] [Server thread/INFO]: [Nezumichii: Set the time to 1000]
+[01:38:12] [Server thread/INFO]: Nezumichii lost connection: Disconnected
+[01:38:12] [Server thread/INFO]: Nezumichii left the game
+[01:52:52] [User Authenticator #2/INFO]: UUID of player walkthejianghu is 46848b7b-5ffd-4420-9053-ad4d12fb7ae7
+[01:52:52] [Server thread/INFO]: walkthejianghu[/73.189.94.131:55567] logged in with entity id 485 at ([world]213.5, 63.0, -210.5)
+[01:55:06] [Server thread/INFO]: walkthejianghu issued server command: /its over
+[01:55:10] [Async Chat Thread - #0/INFO]: <walkthejianghu> its over[m
+[01:55:54] [Server thread/INFO]: com.mojang.authlib.GameProfile@4c6d0959[id=<null>,name=Eletra,properties={},legacy=false] (/71.202.89.34:63937) lost connection: Disconnected
+[01:56:11] [User Authenticator #3/INFO]: UUID of player Eletra is 91cdad1d-4587-46e5-a8f1-ec864a5fde78
+[01:56:11] [Server thread/INFO]: Eletra[/71.202.89.34:63957] logged in with entity id 731 at ([world]213.5, 67.0, -205.5)
+[01:56:20] [Async Chat Thread - #1/INFO]: <walkthejianghu> hi gaymer[m
+[01:56:26] [Async Chat Thread - #1/INFO]: <Eletra> sup[m
+[01:56:28] [Async Chat Thread - #1/INFO]: <Eletra> gay[m
+[01:57:34] [Server thread/INFO]: walkthejianghu has made the advancement [A Seedy Place]
+[02:01:15] [Server thread/INFO]: walkthejianghu has made the advancement [Stone Age]
+[02:01:59] [Server thread/INFO]: Eletra has made the advancement [Stone Age]
+[02:02:17] [Server thread/INFO]: walkthejianghu has made the advancement [Getting an Upgrade]
+[02:02:26] [Server thread/INFO]: Eletra has made the advancement [Getting an Upgrade]
+[02:04:38] [Server thread/INFO]: Eletra has made the advancement [Sweet Dreams]
+[02:04:46] [Server thread/INFO]: walkthejianghu has made the advancement [Sweet Dreams]
+[02:09:19] [Server thread/INFO]: walkthejianghu has made the advancement [Monster Hunter]
+[02:12:35] [Server thread/WARN]: walkthejianghu moved too quickly! 9.25687610392555,1.1212968405392019,8.43177834965536
+[02:20:19] [Server thread/INFO]: walkthejianghu lost connection: Disconnected
+[02:20:19] [Server thread/INFO]: walkthejianghu left the game
+[02:21:52] [Server thread/INFO]: Eletra lost connection: Disconnected
+[02:21:52] [Server thread/INFO]: Eletra left the game
+[11:34:37] [User Authenticator #4/INFO]: UUID of player Nezumichii is ff24b2e8-9084-47db-a284-ab2b2fba3bb8
+[11:34:37] [Server thread/INFO]: Nezumichii[/135.180.43.130:50706] logged in with entity id 4380 at ([world]220.9753710126099, 69.0, -240.92918738132028)
+[11:34:40] [Server thread/INFO]: Nezumichii lost connection: Disconnected
+[11:34:40] [Server thread/INFO]: Nezumichii left the game

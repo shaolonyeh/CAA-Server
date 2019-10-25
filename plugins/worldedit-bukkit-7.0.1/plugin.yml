@@ -1,0 +1,5 @@
+name: WorldEdit
+main: com.sk89q.worldedit.bukkit.WorldEditPlugin
+version: "7.0.1;61bc012"
+load: STARTUP
+api-version: 1.13
